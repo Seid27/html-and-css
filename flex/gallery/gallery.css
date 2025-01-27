@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    padding: 0 50px 0 50px;
+}
+.flex-container{
+    background-color: yellow;
+    position: relative;
+    top: 50%;
+    translate: 0 -50%;
+    display: flex;
+}
+
+.flex-col-container{
+    height: inherit;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img{
+    width: 300px;
+    height: 400px;
+}
+
+.text{
+    padding: 0 30px 0 30px;
+}
+
